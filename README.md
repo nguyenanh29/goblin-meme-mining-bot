@@ -13,11 +13,17 @@ Automatic script for managing boxes on [goblin.meme](https://goblin.meme?referra
 
 ## Setup Instructions
 
-### 1. Install Dependencies
-```bash
+#### 1. Install
+```
+git clone https://github.com/nguyenanh29/goblin-meme-mining-bot.git
+cd goblin-mem-mining-bot
+```
+
+```
 npm install
 ```
-### 2. Setup Cookie
+
+#### 2. Setup Cookie
 1. Log in to [goblin.meme](https://goblin.meme?referral_code=79ECKR) using your browser
 2. Open Developer Tools (F12)
 3. Go to the Network tab
@@ -26,12 +32,15 @@ npm install
 6. Copy all Cookies from the Request Headers
 7. Paste them into the `.env` file
 
-### 3. Edit the .env File
-```bash
-# Copy .env.example to .env
-cp .env.example .env
+#### 3. Edit the .env File
 
-# Edit .env with your editor
+#### Copy .env.example to .env
+```
+cp .env.example .env
+````
+
+#### Edit .env with your editor
+```
 nano .env
 ```
 
@@ -42,7 +51,7 @@ GOBLIN_COOKIE=referral=79ECKR; __Host-next-auth.csrf-token=...; __Secure-next-au
 
 ### 4. Run the Script
 The script runs automatically on Replit. If you want to run it manually:
-```bash
+```
 node index.js
 ```
 
