@@ -100,7 +100,7 @@ Logs are saved in `goblin-automation.log` with automatic rotation:
 
 ## Notes
 
-- This script uses informal Javanese language
+- This script uses informal Javanese language by [Hokireceh](https://github.com/hokireceh)
 - All important data is stored in `.env`
 - Cookie must be updated when expired
 - The script runs continuously, stop it using Ctrl+C
