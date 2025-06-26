@@ -46,6 +46,13 @@ The script runs automatically on Replit. If you want to run it manually:
 node index.js
 ```
 
+
+### How to get your cookies
+Press F12 to open Developer Tools, go to tab network, reload and find your cookie:
+
+![image](https://github.com/user-attachments/assets/5a9e0eec-a18a-4106-8851-bed08da3a7ab)
+
+
 ## Configuration
 
 Edit the `.env` file to set:
